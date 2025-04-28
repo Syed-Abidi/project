@@ -175,36 +175,51 @@ body {font-family: 'Oswald', sans-serif;
     text-align: center;
     background-color: #FE6A40;
     color: #530030;
-    margin-left: auto;
-    margin-right: auto;
-    width:60%;
+   margin-left:300px;
+   margin-right:290px
  
    }
 
-   .input>img{
- display: inline;
- width: 200px;
- height: 500px;
-   }
-
-   form{
-    display: inline-flex;
-   }
-
-   label{
-    margin-right: 5px;
-   }
+ 
+   .contact-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+    background-color: #f2633c; /* orange background */
+    border: 8px dotted #490038; /* fixed dotted border */
    
-   .lni>input{
-    margin-top: 10px;
-    margin-bottom: 10px;
-   }
-   .lni{
-    display: inline;
-    
-   }
-
-
+    width: 100%;
+    box-sizing: border-box;
+  }
+  
+  .contact-form {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    gap: 15px;
+  }
+  
+  .contact-form input,
+  .contact-form textarea {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .contact-form button {
+    padding: 10px;
+    background-color: #490038;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 4px;
+  }
+  
+  .contact-form button:hover {
+    background-color: #340028;
+  }
+  
 
 
 #hard{
@@ -293,9 +308,9 @@ body {font-family: 'Oswald', sans-serif;
     background-color: #530030;
     border-top: 0px;
     opacity: 100;
-    width: 510px;
-    top: 685px;
-    left: 35px;
+    width: 590px;
+    top: 719px;
+    left: 0px;
     position: absolute;
     transform: rotate(90deg);
 }
@@ -330,9 +345,9 @@ body {font-family: 'Oswald', sans-serif;
     background-color: #530030;
     border-top: 0px;
     opacity: 100;
-    width: 510px;
-    top: 685px;
-    right: 35px;
+    width: 590px;
+    top: 720px;
+    right: -10px;
     position: absolute;
     transform: rotate(90deg);
 }
